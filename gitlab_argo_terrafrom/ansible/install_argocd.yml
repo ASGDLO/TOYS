@@ -1,0 +1,27 @@
+---
+- name: Install Argo CD on EKS Cluster
+  hosts: localhost
+  gather_facts: no
+  tasks:
+    - name: Create argocd namespace
+      kubernetes.core.k8s:
+        api_version: v1
+        kind: Namespace
+        name: argocd
+
+    - name: Apply Argo CD manifests
+      kubernetes.core.k8s:
+        src: https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
+        namespace: argocd
+        state: present
+
+    - name: Wait for Argo CD server to be ready
+      kubernetes.core.k8s_info:
+        kind: Pod
+        namespace: argocd
+        label_selectors:
+          - app.kubernetes.io/name=argocd-server
+      register: argocd_pods
+      until: argocd_pods.resources | selectattr('status.phase', 'equalto', 'Running') | list | length > 0
+      retries: 10
+      delay: 15

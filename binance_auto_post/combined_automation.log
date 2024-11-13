@@ -1,0 +1,177 @@
+2024-11-08 20:45:03,790 [INFO] Loaded ChatGPT response for posting.
+2024-11-08 20:45:03,790 [INFO] === Starting Combined Automation ===
+2024-11-08 20:45:03,790 [INFO] === Step 1: ChatGPT Automation ===
+2024-11-08 20:45:06,433 [INFO] patching driver executable /home/ethan/.local/share/undetected_chromedriver/undetected_chromedriver
+2024-11-08 20:45:07,910 [INFO] ChatGPT ChromeDriver initialized successfully.
+2024-11-08 20:45:10,137 [INFO] Navigated to ChatGPT.
+2024-11-08 20:45:10,137 [INFO] Waiting for chat input field to be clickable...
+2024-11-08 20:45:10,214 [INFO] Chat input field is clickable.
+2024-11-08 20:45:15,721 [INFO] Typed and sent message: I need BTC and ETH news, without personal talk, only news.
+2024-11-08 20:45:15,721 [INFO] Waiting for response...
+2024-11-08 20:45:15,721 [INFO] Waiting for response from ChatGPT...
+2024-11-08 20:45:25,759 [INFO] ChatGPT responded: Bitcoin (BTC) and Ethereum (ETH) Recent Developments:
+Bitcoin (BTC):
+Price Surge: Bitcoin reached a record high of $75,361 following the GOP's victory in the U.S. election. Analysts had predicted the price boost irrespective of the election's outcome due to rising support for cryptocurrency. The growth was driven by expectations of a crypto-friendly administration from both the Republican and Democratic sides. LMAX Group forecasts Bitcoin potentially reaching $100,000 by the year's end, citing ongoing support for cryptocurrency.
+INVESTORS.COM
+Market Reaction: The surge in Bitcoin's price also positively affected other cryptocurrencies, including Ethereum and Solana. Senior crypto executives viewed Trump's win as an opportunity for more crypto-friendly legislation. Trump's pro-cryptocurrency stance and promises to create a U.S. bitcoin strategic reserve and oppose Securities and Exchange Commission chair Gary Gensler contributed to the rise in crypto prices.
+FINANCIAL TIMES
+Ethereum (ETH):
+Price Movement: Ethereum's price has been on an upward trajectory, trading near $2,650. This increase is partly attributed to the overall bullish sentiment in the cryptocurrency market following the U.S. election results.
+THE TIMES
+Analyst Insights: Crypto analyst Michaël van de Poppe noted that Ethereum may be gearing up for a massive breakout against Bitcoin. He highlighted a bullish divergence on the daily chart of the ETH/BTC pair, suggesting potential upward momentum for Ethereum.
+THE DAILY HODL
+Regulatory Developments: In early 2024, the U.S. Securities and Exchange Commission (SEC) approved spot Ether (ETH) exchange-traded funds (ETFs) for listing on major exchanges. This approval marked a significant milestone for Ethereum, offering investors a new pathway for crypto exposure.
+INVESTOPEDIA
+These developments underscore the dynamic nature of the cryptocurrency market, influenced by political events, regulatory changes, and market sentiment.
+Sources
+2024-11-08 20:45:25,759 [INFO] Response saved to chatgpt_response.txt
+2024-11-08 20:45:25,759 [INFO] ChatGPT Browser closed during cleanup.
+2024-11-08 20:45:25,759 [INFO] === Step 2: Binance Automation ===
+2024-11-08 20:45:27,273 [INFO] Binance ChromeDriver initialized successfully.
+2024-11-08 20:45:27,273 [INFO] === Phase 1: Manual Login and Extraction ===
+2024-11-08 20:45:28,379 [INFO] Navigated to https://www.binance.com/en/login
+2024-11-08 20:45:28,379 [INFO] Please log in manually within the next 10 seconds.
+2024-11-08 20:45:38,387 [INFO] Cookies have been saved to 'cookies.json'.
+2024-11-08 20:45:38,390 [INFO] Local storage has been saved to 'local_storage.json'.
+2024-11-08 20:45:38,390 [INFO] 
+=== Phase 2: Automated Blog Posting ===
+2024-11-08 20:45:38,390 [INFO] Waiting for 10 seconds before proceeding to post.
+2024-11-08 20:45:48,622 [INFO] Page refreshed to apply authentication.
+2024-11-08 20:45:49,650 [INFO] Navigated to profile page: https://www.binance.com/en/square
+2024-11-08 20:46:19,998 [ERROR] An error occurred during posting: Message: 
+Stacktrace:
+#0 0x5afa2ba966da <unknown>
+#1 0x5afa2b5aaf80 <unknown>
+#2 0x5afa2b5f7b46 <unknown>
+#3 0x5afa2b5f7de1 <unknown>
+#4 0x5afa2b63d174 <unknown>
+#5 0x5afa2b61bbdd <unknown>
+#6 0x5afa2b63a69d <unknown>
+#7 0x5afa2b61b953 <unknown>
+#8 0x5afa2b5ea72e <unknown>
+#9 0x5afa2b5eb79e <unknown>
+#10 0x5afa2ba61f1b <unknown>
+#11 0x5afa2ba65eb8 <unknown>
+#12 0x5afa2ba4f42c <unknown>
+#13 0x5afa2ba66a37 <unknown>
+#14 0x5afa2ba33fef <unknown>
+#15 0x5afa2ba84ad8 <unknown>
+#16 0x5afa2ba84ca0 <unknown>
+#17 0x5afa2ba95556 <unknown>
+#18 0x77446f09ca94 <unknown>
+#19 0x77446f129c3c <unknown>
+
+2024-11-08 20:46:20,007 [ERROR] Traceback (most recent call last):
+  File "/home/ethan/Documents/GitHub/TOY/binance_auto_post/auto2.py", line 286, in perform_posting
+    post_editor = wait.until(EC.element_to_be_clickable(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ethan/Documents/GitHub/TOY/fresh_env/lib/python3.12/site-packages/selenium/webdriver/support/wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+#0 0x5afa2ba966da <unknown>
+#1 0x5afa2b5aaf80 <unknown>
+#2 0x5afa2b5f7b46 <unknown>
+#3 0x5afa2b5f7de1 <unknown>
+#4 0x5afa2b63d174 <unknown>
+#5 0x5afa2b61bbdd <unknown>
+#6 0x5afa2b63a69d <unknown>
+#7 0x5afa2b61b953 <unknown>
+#8 0x5afa2b5ea72e <unknown>
+#9 0x5afa2b5eb79e <unknown>
+#10 0x5afa2ba61f1b <unknown>
+#11 0x5afa2ba65eb8 <unknown>
+#12 0x5afa2ba4f42c <unknown>
+#13 0x5afa2ba66a37 <unknown>
+#14 0x5afa2ba33fef <unknown>
+#15 0x5afa2ba84ad8 <unknown>
+#16 0x5afa2ba84ca0 <unknown>
+#17 0x5afa2ba95556 <unknown>
+#18 0x77446f09ca94 <unknown>
+#19 0x77446f129c3c <unknown>
+
+
+2024-11-08 20:46:20,007 [ERROR] An error occurred during Binance automation:
+2024-11-08 20:46:20,007 [ERROR] Traceback (most recent call last):
+  File "/home/ethan/Documents/GitHub/TOY/binance_auto_post/auto2.py", line 380, in run
+    self.perform_posting(driver, self.post_text)
+  File "/home/ethan/Documents/GitHub/TOY/binance_auto_post/auto2.py", line 286, in perform_posting
+    post_editor = wait.until(EC.element_to_be_clickable(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ethan/Documents/GitHub/TOY/fresh_env/lib/python3.12/site-packages/selenium/webdriver/support/wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+#0 0x5afa2ba966da <unknown>
+#1 0x5afa2b5aaf80 <unknown>
+#2 0x5afa2b5f7b46 <unknown>
+#3 0x5afa2b5f7de1 <unknown>
+#4 0x5afa2b63d174 <unknown>
+#5 0x5afa2b61bbdd <unknown>
+#6 0x5afa2b63a69d <unknown>
+#7 0x5afa2b61b953 <unknown>
+#8 0x5afa2b5ea72e <unknown>
+#9 0x5afa2b5eb79e <unknown>
+#10 0x5afa2ba61f1b <unknown>
+#11 0x5afa2ba65eb8 <unknown>
+#12 0x5afa2ba4f42c <unknown>
+#13 0x5afa2ba66a37 <unknown>
+#14 0x5afa2ba33fef <unknown>
+#15 0x5afa2ba84ad8 <unknown>
+#16 0x5afa2ba84ca0 <unknown>
+#17 0x5afa2ba95556 <unknown>
+#18 0x77446f09ca94 <unknown>
+#19 0x77446f129c3c <unknown>
+
+
+2024-11-08 20:46:20,103 [INFO] Binance Browser closed during cleanup.
+2024-11-08 20:46:22,199 [INFO] Loaded ChatGPT response for posting.
+2024-11-08 20:46:22,199 [INFO] === Starting Combined Automation ===
+2024-11-08 20:46:22,199 [INFO] === Step 1: ChatGPT Automation ===
+2024-11-08 20:46:29,061 [INFO] patching driver executable /home/ethan/.local/share/undetected_chromedriver/undetected_chromedriver
+2024-11-08 20:46:49,187 [INFO] Loaded ChatGPT response for posting.
+2024-11-08 20:46:49,187 [INFO] === Starting Combined Automation ===
+2024-11-08 20:46:49,187 [INFO] === Step 1: ChatGPT Automation ===
+2024-11-08 20:46:51,582 [INFO] patching driver executable /home/ethan/.local/share/undetected_chromedriver/undetected_chromedriver
+2024-11-08 20:46:53,070 [INFO] ChatGPT ChromeDriver initialized successfully.
+2024-11-08 20:46:54,903 [INFO] Navigated to ChatGPT.
+2024-11-08 20:46:54,903 [INFO] Waiting for chat input field to be clickable...
+2024-11-08 20:46:55,464 [INFO] Chat input field is clickable.
+2024-11-08 20:47:00,986 [INFO] Typed and sent message: I need BTC and ETH news, without personal talk, only news.
+2024-11-08 20:47:00,986 [INFO] Waiting for response...
+2024-11-08 20:47:00,986 [INFO] Waiting for response from ChatGPT...
+2024-11-08 20:47:11,030 [INFO] ChatGPT responded: Bitcoin (BTC) and Ethereum (ETH) Recent Developments:
+Bitcoin (BTC):
+Price Surge: Bitcoin reached a record high of $75,361 following the GOP's victory in the U.S. election. Analysts had predicted the price boost irrespective of the election's outcome due to rising support for cryptocurrency. The growth was driven by expectations of a crypto-friendly administration from both the Republican and Democratic sides. LMAX Group forecasts Bitcoin potentially reaching $100,000 by the year's end, citing ongoing support for cryptocurrency.
+INVESTORS.COM
+Market Reaction: The surge in Bitcoin's price also positively affected other cryptocurrencies, including Ethereum and Solana. Senior crypto executives viewed Trump's win as an opportunity for more crypto-friendly legislation. Trump's pro-cryptocurrency stance and promises to create a U.S. bitcoin strategic reserve and oppose Securities and Exchange Commission chair Gary Gensler contributed to the rise in crypto prices.
+FINANCIAL TIMES
+Ethereum (ETH):
+Price Movement: Ethereum's price has been on an upward trajectory, trading near $2,650. This increase is partly attributed to the overall bullish sentiment in the cryptocurrency market following the U.S. election results.
+THE TIMES
+Analyst Insights: Crypto analyst Michaël van de Poppe noted that Ethereum may be gearing up for a massive breakout against Bitcoin. He highlighted a bullish divergence on the daily chart of the ETH/BTC pair, suggesting potential upward momentum for Ethereum.
+THE DAILY HODL
+Regulatory Developments: In early 2024, the U.S. Securities and Exchange Commission (SEC) approved spot Ether (ETH) exchange-traded funds (ETFs) for listing on major exchanges. This approval marked a significant milestone for Ethereum, offering investors a new pathway for crypto exposure.
+INVESTOPEDIA
+These developments underscore the dynamic nature of the cryptocurrency market, influenced by political events, regulatory changes, and market sentiment.
+Sources
+2024-11-08 20:47:11,031 [INFO] Response saved to chatgpt_response.txt
+2024-11-08 20:47:11,031 [INFO] ChatGPT Browser closed during cleanup.
+2024-11-08 20:47:11,031 [INFO] === Step 2: Binance Automation ===
+2024-11-08 20:47:12,511 [INFO] Binance ChromeDriver initialized successfully.
+2024-11-08 20:47:12,511 [INFO] === Phase 1: Manual Login and Extraction ===
+2024-11-08 20:47:12,904 [INFO] Navigated to https://www.binance.com/en/login
+2024-11-08 20:47:12,904 [INFO] Please log in manually within the next 10 seconds.
+2024-11-08 20:47:22,914 [INFO] Cookies have been saved to 'cookies.json'.
+2024-11-08 20:47:22,920 [INFO] Local storage has been saved to 'local_storage.json'.
+2024-11-08 20:47:22,921 [INFO] 
+=== Phase 2: Automated Blog Posting ===
+2024-11-08 20:47:22,921 [INFO] Waiting for 10 seconds before proceeding to post.
+2024-11-08 20:47:33,181 [INFO] Page refreshed to apply authentication.
+2024-11-08 20:47:34,100 [INFO] Navigated to profile page: https://www.binance.com/en/square
+2024-11-08 20:47:35,301 [INFO] Post editor is visible.
+2024-11-08 20:47:35,373 [INFO] Cleared existing text in the post editor.
+2024-11-08 20:47:59,861 [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(104, 'Connection reset by peer')': /session/c302dad33ea57ed97de04d93fa273bc5
+2024-11-08 20:47:59,861 [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x77a29eab9a00>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/c302dad33ea57ed97de04d93fa273bc5
+2024-11-08 20:47:59,862 [WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x77a29eab9b80>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/c302dad33ea57ed97de04d93fa273bc5
+2024-11-08 20:47:59,862 [INFO] Binance Browser closed during cleanup.

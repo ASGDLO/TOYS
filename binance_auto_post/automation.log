@@ -1,0 +1,97 @@
+2024-11-08 19:02:18,347 [INFO] patching driver executable /home/ethan/.local/share/undetected_chromedriver/undetected_chromedriver
+2024-11-08 19:02:19,819 [INFO] ChromeDriver initialized successfully.
+2024-11-08 19:02:20,883 [INFO] Navigated to ChatGPT.
+2024-11-08 19:02:20,883 [INFO] Waiting for chat input field to be clickable...
+2024-11-08 19:02:21,461 [INFO] Chat input field is clickable.
+2024-11-08 19:02:26,461 [WARNING] Attempt 1 failed with error: name 'ActionChains' is not defined
+2024-11-08 19:02:26,461 [INFO] Retrying in 5 seconds...
+2024-11-08 19:02:31,462 [WARNING] Attempt 2 failed with error: name 'ActionChains' is not defined
+2024-11-08 19:02:31,462 [INFO] Retrying in 5 seconds...
+2024-11-08 19:02:36,462 [WARNING] Attempt 3 failed with error: name 'ActionChains' is not defined
+2024-11-08 19:02:36,462 [ERROR] All 3 attempts failed.
+2024-11-08 19:02:36,462 [ERROR] An error occurred during automation:
+2024-11-08 19:02:36,465 [ERROR] Traceback (most recent call last):
+  File "/home/ethan/Documents/GitHub/TOY/binance_auto_post/auto.py", line 217, in main
+    send_message(driver, chat_input, message)
+  File "/home/ethan/Documents/GitHub/TOY/binance_auto_post/auto.py", line 44, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ethan/Documents/GitHub/TOY/binance_auto_post/auto.py", line 114, in send_message
+    actions = ActionChains(driver)
+              ^^^^^^^^^^^^
+NameError: name 'ActionChains' is not defined
+
+2024-11-08 19:02:36,465 [INFO] Browser closed during cleanup.
+2024-11-08 19:02:36,465 [WARNING] Attempt 1 failed with error: name 'ActionChains' is not defined
+2024-11-08 19:02:36,465 [INFO] Retrying in 10 seconds...
+2024-11-08 19:02:50,569 [INFO] patching driver executable /home/ethan/.local/share/undetected_chromedriver/undetected_chromedriver
+2024-11-08 19:02:52,060 [INFO] ChromeDriver initialized successfully.
+2024-11-08 19:02:54,155 [INFO] Navigated to ChatGPT.
+2024-11-08 19:02:54,155 [INFO] Waiting for chat input field to be clickable...
+2024-11-08 19:02:54,786 [INFO] Chat input field is clickable.
+2024-11-08 19:02:59,786 [WARNING] Attempt 1 failed with error: name 'ActionChains' is not defined
+2024-11-08 19:02:59,786 [INFO] Retrying in 5 seconds...
+2024-11-08 19:03:04,787 [WARNING] Attempt 2 failed with error: name 'ActionChains' is not defined
+2024-11-08 19:03:04,787 [INFO] Retrying in 5 seconds...
+2024-11-08 19:03:09,787 [WARNING] Attempt 3 failed with error: name 'ActionChains' is not defined
+2024-11-08 19:03:09,787 [ERROR] All 3 attempts failed.
+2024-11-08 19:03:09,787 [ERROR] An error occurred during automation:
+2024-11-08 19:03:09,790 [ERROR] Traceback (most recent call last):
+  File "/home/ethan/Documents/GitHub/TOY/binance_auto_post/auto.py", line 217, in main
+    send_message(driver, chat_input, message)
+  File "/home/ethan/Documents/GitHub/TOY/binance_auto_post/auto.py", line 44, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ethan/Documents/GitHub/TOY/binance_auto_post/auto.py", line 114, in send_message
+    actions = ActionChains(driver)
+              ^^^^^^^^^^^^
+NameError: name 'ActionChains' is not defined
+
+2024-11-08 19:03:09,790 [INFO] Browser closed during cleanup.
+2024-11-08 19:03:09,790 [WARNING] Attempt 1 failed with error: name 'ActionChains' is not defined
+2024-11-08 19:03:09,790 [INFO] Retrying in 10 seconds...
+2024-11-10 13:12:52,494 [INFO] patching driver executable /home/ethan/.local/share/undetected_chromedriver/undetected_chromedriver
+2024-11-10 13:12:53,983 [INFO] ChromeDriver initialized successfully.
+2024-11-10 13:12:53,983 [INFO] 
+=== Phase 1: ChatGPT Automation ===
+2024-11-10 13:12:56,308 [INFO] Navigated to ChatGPT.
+2024-11-10 13:12:56,308 [INFO] Waiting for chat input field to be clickable...
+2024-11-10 13:12:56,924 [INFO] Chat input field is clickable.
+2024-11-10 13:13:02,797 [INFO] Typed and sent message: good, this time give me other today news, can you compare you ensure and don't give me same news
+
+i need today date, crypto news for blog posting.
+
+give me only news 2 news. without your talk.
+
+on the right of the title add $BTC and second $ETH
+2024-11-10 13:13:02,797 [INFO] Waiting for response from ChatGPT...
+2024-11-10 13:13:02,797 [INFO] Waiting for response from ChatGPT...
+2024-11-10 13:13:08,664 [INFO] Browser closed during cleanup.
+2024-11-10 13:14:00,947 [INFO] patching driver executable /home/ethan/.local/share/undetected_chromedriver/undetected_chromedriver
+2024-11-10 13:14:02,418 [INFO] ChromeDriver initialized successfully.
+2024-11-10 13:14:02,418 [INFO] 
+=== Phase 1: ChatGPT Automation ===
+2024-11-10 13:14:04,131 [INFO] Navigated to ChatGPT.
+2024-11-10 13:14:04,131 [INFO] Waiting for chat input field to be clickable...
+2024-11-10 13:14:04,709 [INFO] Chat input field is clickable.
+2024-11-10 13:14:10,525 [INFO] Typed and sent message: good, this time give me other today news, can you compare you ensure and don't give me same newsi need today date, crypto news for blog posting.give me only news 2 news. without your talk.on the right of the title add $BTC and second $ETH
+2024-11-10 13:14:10,526 [INFO] Waiting for response from ChatGPT...
+2024-11-10 13:14:10,526 [INFO] Waiting for response from ChatGPT...
+2024-11-10 13:14:20,561 [INFO] ChatGPT responded: Bitcoin (BTC) and Ethereum (ETH) News for November 10, 2024:
+1. Bitcoin ETF Inflows Surge Amid Market Optimism $BTC
+Bitcoin exchange-traded funds (ETFs) have experienced significant inflows, with a record $1.4 billion added in a single day. This surge reflects growing investor confidence in Bitcoin's potential, especially following recent regulatory approvals and favorable market conditions.
+2. Ethereum Foundation Reports $970 Million Treasury Holdings $ETH
+The Ethereum Foundation has disclosed a treasury holding of $970 million in its 2024 report, highlighting substantial financial resources to support ongoing development and ecosystem growth. This announcement underscores Ethereum's robust position in the cryptocurrency landscape.
+THE WALL STREET JOURNAL
+Sources
+2024-11-10 13:14:20,561 [INFO] 
+=== Phase 2: Binance Automated Posting ===
+2024-11-10 13:14:20,561 [INFO] Navigating to LOGIN_URL: https://www.binance.com/en/login
+2024-11-10 13:14:21,672 [INFO] Navigated to https://www.binance.com/en/login
+2024-11-10 13:14:21,672 [INFO] Waiting for 60 seconds to ensure login session is active.
+2024-11-10 13:15:24,773 [INFO] Navigated to profile page: https://www.binance.com/en/square
+2024-11-10 13:15:24,803 [INFO] Post editor is visible.
+2024-11-10 13:15:24,877 [INFO] Cleared existing text in the post editor.
+2024-11-10 13:15:25,014 [INFO] Pasted text into post editor.
+2024-11-10 13:15:25,136 [INFO] Clicked the 'Post' button.
+2024-11-10 13:15:25,136 [INFO] Browser closed during cleanup.
